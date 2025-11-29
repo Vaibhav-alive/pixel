@@ -21,7 +21,7 @@ section {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 3px;
+    /* gap: 3px; */
     margin: 6px 0;
 }
 
@@ -159,4 +159,18 @@ img {
     opacity: 0;
     transition: .4s;
     animation: fadeIn 3s ease-in-out 9s 1 forwards;
+}
+@media (max-width: 600px) {
+    .credit {
+        font-size: large;
+    }
+
+    .sub {
+        font-size: large;
+        margin: 20px 0;
+    }
+
+    .top {
+        margin: 15px 0;
+    }
 }
