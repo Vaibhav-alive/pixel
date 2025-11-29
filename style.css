@@ -41,8 +41,10 @@ section {
 }
 
 .credit {
-    text-align: end;
+    text-align: center;
     color: #ffff;
+    font-weight: 300;
+    font-size: x-large;
 }
 
 .p-top {
@@ -163,4 +165,10 @@ img{
 
 .credit h2{
     margin: 8px 20px;
+}
+.p-top svg{
+    width: 100%;
+}
+.sub svg{
+    width: 100%;
 }
